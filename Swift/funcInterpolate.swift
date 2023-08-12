@@ -1,5 +1,5 @@
 /*create function
-say learning Swift
+to print learning Swift
 */
 
 func learnSwift (){
@@ -8,9 +8,12 @@ print("Learning Swift")
 
 learnSwift()
 
-var anthonyAge: Int /*declare var anthonyAge 
-					Holds int type of soon to be age
-					*/
+var anthonyAge: Int 
+                
+/*declare var anthonyAge 
+Holds int type of soon to be age
+*/
+
 anthonyAge = 35
 
 //Interpolate variable with string
