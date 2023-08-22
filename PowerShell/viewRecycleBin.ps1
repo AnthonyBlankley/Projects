@@ -1,0 +1,3 @@
+start shell:RecycleBinFolder
+
+pause
