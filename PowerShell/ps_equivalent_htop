@@ -1,0 +1,4 @@
+# powershell equivalent to htop
+While(1) {ps | sort -des cpu | select -f 15 | ft -a; sleep 20; cls}
+#display top 15 processes by CPU usage, then sleep and clear screen
+# default sleep 20 seconds, change as needed
